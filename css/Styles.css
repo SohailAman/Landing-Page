@@ -1,0 +1,610 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    background-color: whitesmoke;
+}
+
+
+/* Btns */
+
+.btn-success {
+    color: white;
+    border-radius: 6px;
+    background-color: #33c5a5 !important;
+    border: 1px solid transparent !important;
+    transform: translate(0px, 0px);
+    box-shadow: none !important;
+    transition: all 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95) !important;
+}
+
+.btn-success:hover {
+    color: #33c5a5 !important;
+    background-color: transparent !important;
+    border: 1px solid #33c5a5 !important;
+    transform: translate(1px, -2px);
+    transition: all 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95) !important;
+}
+
+.btn-info {
+    border-radius: 6px;
+    background-color: #4fc4ef !important;
+    border: 1px solid transparent !important;
+    outline: none;
+    margin: 10px !important;
+    padding: 4px 18px !important;
+    box-shadow: none !important;
+    transform: translate(0px, 0px);
+    transition: all 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95) !important;
+}
+
+.btn-info:hover {
+    color: #4fc4ef !important;
+    border: 1px solid #4fc4ef !important;
+    background-color: transparent !important;
+    transform: translate(1px, -2px);
+    transition: all 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95) !important;
+}
+
+
+/* Header Sec */
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.89), rgba(0, 0, 0, 0.89)), url(../assests/images/bg-sec1.jpg);
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+
+/* Offcanvas */
+
+.header .offcanvas-header {
+    background-color: #33c5a5;
+}
+
+.header .offcanvas i.fa {
+    font-size: 14px !important;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+    font-weight: 100 !important;
+}
+
+.header .offcanvas .navbar-nav .nav-item {
+    font-size: 16px;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.header .offcanvas .navbar-nav .nav-item:hover {
+    background-color: #33c5a5 !important;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.header .offcanvas .navbar-nav .nav-item:hover i.fa {
+    color: #ffffff !important;
+    border-radius: 100%;
+    background-color: #4fc4ef;
+    padding: 10px;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.topCaro .swiper {
+    border: 1px solid #33c5a5;
+    border-radius: 0 10px 0 10px;
+    width: 7rem;
+    transition: all 0.35s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.topCaro .name {
+    color: rgb(146, 144, 144);
+    font-size: 6rem;
+    font-weight: 500;
+    font-family: inherit;
+    transition: all 0.15s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    cursor: pointer;
+}
+
+.topCaro .swiper:hover {
+    background: rgba(70, 235, 207, 0.445);
+    transition: all 0.35s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.topCaro .swiper:hover .name {
+    color: rgb(243, 241, 241);
+    transition: all 0.15s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.header .main-title {
+    font-weight: 300;
+    font-size: 45px;
+}
+
+.header .desc-main {
+    font-size: 19.23px;
+    font-weight: normal !important;
+}
+
+.header .sett button {
+    background: #33c5a5 !important;
+    position: absolute;
+    left: 0 !important;
+    border-radius: 0 5px 5px 0;
+    outline: none !important;
+    padding: 2px 11px;
+    border: 1px solid transparent;
+    transition: all 0.35s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.header .sett button:hover,
+.sett button:hover .i {
+    border-color: #33c5a5;
+    background-color: transparent !important;
+    color: #33c5a5;
+    transition: all 0.35s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+
+/* Navbar Sec */
+
+.navbar .navbar-brand {
+    outline: none !important;
+    font-size: 25px;
+}
+
+.navMove {
+    position: fixed !important;
+    top: 1% !important;
+    left: 2% !important;
+    width: 96% !important;
+    z-index: 99999 !important;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    opacity: 1 !important;
+    color: white !important;
+}
+
+.navbar .nav-link {
+    font-size: 14.5px !important;
+    font-weight: normal !important;
+    opacity: 70%;
+    transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    outline: none !important;
+    position: relative;
+}
+
+.navbar .nav-item .badge {
+    opacity: 70%;
+    background-color: rgba(16, 144, 184, 0.808) !important;
+    font-size: xx-small !important;
+}
+
+.navbar .nav-item:hover {
+    background: rgba(49, 240, 176, 0.514);
+    transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    border-radius: 5px;
+}
+
+.navbar .nav-item:hover .nav-link {
+    opacity: 1 !important;
+    color: #000 !important;
+}
+
+.navbar .nav-item .dropdown-item:hover {
+    background: rgba(49, 240, 176, 0.514);
+    transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+
+/* 1st  Sec */
+
+.facts-sec {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../assests/images/p2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.all-header {
+    font-size: 50px;
+    font-weight: 300;
+    opacity: 75%;
+}
+
+.des-all {
+    font-size: 20px;
+    font-weight: 300;
+    opacity: 75%;
+}
+
+.facts-sec .fa,
+.facts-sec .fact-title {
+    color: rgb(58, 252, 210) !important;
+}
+
+.facts-sec .fa {
+    font-size: 4rem !important;
+}
+
+.facts-sec .fact-title,
+.facts-sec .fact-num {
+    font-size: 1.8rem;
+    font-weight: lighter !important;
+}
+
+
+/* Reason  Sec */
+
+.reason-sec .fa {
+    background-color: rgb(68, 204, 159) !important;
+    color: white !important;
+    border-radius: 4px;
+}
+
+.reason-sec .para .res-head {
+    margin-bottom: 0 !important;
+    font-size: 25px;
+}
+
+.reason-sec .para .res-p {
+    font-style: 18px;
+}
+
+
+/* Skill  Sec */
+
+.skill-sec {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assests/images/4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.skill-sec .skillPara {
+    font-size: 1.3rem;
+    opacity: 75%;
+    font-weight: lighter;
+}
+
+.skill-sec .skillLight-para {
+    font-weight: lighter;
+    opacity: 75%;
+}
+
+.skill-sec .box {
+    width: 90%;
+    height: 8vh;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.skill-sec .box .inner {
+    background-color: rgb(42, 187, 151) !important;
+    color: rgb(155, 248, 239);
+    border-radius: 5px;
+    height: 7vh;
+}
+
+
+/*About  Sec */
+
+.about-sec .row .card .fa {
+    background-color: transparent !important;
+    color: rgb(49, 214, 159) !important;
+    border: 1px solid rgb(49, 214, 159);
+    border-radius: 50%;
+    font-size: 30px;
+    width: 10vh;
+    height: 10vh;
+}
+
+.about-sec .row .card-1 {
+    flex-direction: column;
+    border-bottom: 1px solid rgb(49, 214, 159) !important;
+    padding: 2vh !important;
+}
+
+.about-sec .row .card-2 {
+    padding: 2vh !important;
+    padding-bottom: 6vh !important;
+    border-top: none !important;
+    flex-direction: column;
+    border: 1px solid rgb(49, 214, 159);
+}
+
+
+/*Work  Sec */
+
+.work-sec .nav-pills .btn-info.active {
+    box-shadow: none !important;
+    background: transparent !important;
+    color: #4fc4ef !important;
+    border: 1px solid #4fc4ef !important;
+}
+
+
+/*Quote  Sec */
+
+.quote-sec {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assests/images/flex1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quote-sec .quotePara {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.quote-sec .quoteTitle {
+    font-size: 32px;
+    font-weight: lighter;
+    color: rgb(50, 197, 165);
+}
+
+
+/*Social  Sec */
+
+.social-sec {
+    background-image: url(../assests/images/07.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.social-sec .so-name {
+    font-size: 20px;
+    opacity: 75%;
+    font-weight: lighter;
+}
+
+
+/*Team  Sec */
+
+.team-sec .swiper-button-next,
+.team-sec .swiper-button-prev {
+    background: #29c79f !important;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+.team-sec .swiper-button-prev:after,
+.team-sec .swiper-button-next:after {
+    font-weight: bolder !important;
+    font-size: 20px !important;
+    color: #fff;
+}
+
+.team-sec .swiper-pagination-bullet-active {
+    background: rgb(41, 199, 159) !important;
+}
+
+.team-sec .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.team-sec .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    height: 4px !important;
+    width: 28px !important;
+    border-radius: 0 !important;
+}
+
+
+/* 
+Testimonials  Sec 
+*/
+
+.test-sec {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../assests/images/05.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.test-sec .test-imgs {
+    height: 50vh;
+}
+
+.test-sec .para {
+    background-color: rgb(47, 201, 162) !important;
+    margin-bottom: 7vh;
+    z-index: 9999;
+    flex-direction: column !important;
+}
+
+.test-sec .user img {
+    border: 4px solid white;
+}
+
+.test-sec .para::after {
+    content: "";
+    background-color: rgb(47, 201, 162)!important;
+    width: 2rem;
+    height: 2rem;
+    transform: rotate(90deg) skew(46deg);
+    position: absolute;
+    bottom: -7%;
+    left: 20%;
+}
+
+
+/*Pricing  Sec */
+
+.pricing-sec .container {
+    width: 80vw !important;
+    overflow-x: scroll !important;
+}
+
+.pricing-sec .container::-webkit-scrollbar {
+    display: none;
+}
+
+.pricing-sec .table .btn:hover {
+    background-color: rgb(18, 196, 136);
+    color: white;
+    width: 100%;
+    border-radius: 0;
+    transition: all 0.35s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+
+/*Comming-Soon Sec */
+
+.com-sec {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assests/images/cmson.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.com-sec .counter {
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.com-sec .count-num {
+    font-weight: 300;
+    color: rgb(47, 201, 162);
+}
+
+.com-sec input {
+    width: 40%;
+    height: 6.2vh;
+    outline: none;
+}
+
+.notifyBtn {
+    margin-left: -0.4rem;
+    padding: 0.75rem 1rem !important;
+    background-color: rgb(47, 201, 162);
+}
+
+
+/*History  Sec */
+
+.his-sec {
+    background-color: #f5f5f5;
+}
+
+.his-sec .row h3 {
+    color: white;
+    position: relative;
+    padding: 3vh;
+    background-color: rgb(47, 201, 162);
+    z-index: 999 !important;
+}
+
+.his-sec .row .rendom-1 h3::after {
+    content: "";
+    width: 5vh;
+    height: 5vh;
+    background-color: rgb(47, 201, 162);
+    transform: rotate(45deg) !important;
+    position: absolute;
+    z-index: -1;
+    right: -2.5vh;
+}
+
+.his-sec .row .rendom-2 h3::after {
+    content: "";
+    width: 5vh;
+    height: 5vh;
+    background-color: rgb(47, 201, 162);
+    transform: rotate(45deg) !important;
+    position: absolute;
+    z-index: -1;
+    left: -2.5vh;
+}
+
+.his-sec .his-card-det {
+    background-color: #f5f5f5;
+    box-shadow: 0px 1.5px 4px #808080;
+}
+
+
+/*Contact  Sec */
+
+.contact-sec {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assests/images/bg-form.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-sec .inp input {
+    width: 38vw !important;
+}
+
+.contact-sec textarea {
+    width: 38vw !important;
+}
+
+.contact-sec button {
+    background-color: rgb(43, 190, 153);
+    transition: all 0.35s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.contact-sec button:hover {
+    background-color: rgb(35, 161, 130);
+    transition: all 0.35s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+
+/* Back to top */
+
+.back-top {
+    transform: translate(1%, 300%);
+    background-color: #33c5a5;
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    right: 3vh;
+    bottom: 3vh;
+    transition: all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1)
+}
+
+.back-top a {
+    color: black;
+}
+
+
+/* Js Class Adition */
+
+
+/* Navbar */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 9999999;
+    animation: nav .35s linear;
+}
+
+@keyframes nav {
+    0% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}
+
+
+/* To top */
+
+.show {
+    transform: translate(0);
+    transition: all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1)
+}
+
+.hide {
+    transform: translate(1%, 300%);
+    transition: all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1)
+}

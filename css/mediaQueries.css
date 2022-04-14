@@ -1,0 +1,450 @@
+/*Media Queries */
+
+@media (max-width:992px) {
+    th h4 {
+        font-size: 20px;
+    }
+    .contact-sec .inp input {
+        width: 80vw !important;
+    }
+    .contact-sec textarea {
+        width: 80vw !important;
+    }
+    th h4 .display-5 {
+        font-size: 30px;
+    }
+    th h1 {
+        font-size: 40px !important;
+    }
+    th p {
+        font-size: 15px;
+    }
+    .input input {
+        width: 50%;
+    }
+}
+
+@media(max-width:768px) {
+    .header .main-title {
+        font-size: 38px !important;
+    }
+    .all-header {
+        font-size: 40px;
+    }
+    .user h5 {
+        font-size: 19px;
+    }
+    .notifyBtn {
+        padding: 0.38rem 0.75rem !important;
+        font-size: 14px !important;
+    }
+    .socialContainer i {
+        font-size: 3em;
+    }
+    .socialContainer .so-name {
+        font-size: 18px !important;
+    }
+    .user img {
+        width: 8vh !important;
+    }
+    .user h6 {
+        font-size: 15px;
+    }
+    .paraTestimonial h5 {
+        font-size: 19px;
+    }
+    .des-all {
+        font-size: 18px !important;
+    }
+    .com-sec-p {
+        font-size: 15px !important;
+    }
+    .sec-1 .sec1-justify {
+        justify-content: center !important;
+    }
+    .sameIcons.fa {
+        font-size: 45px !important;
+    }
+    .fact-num {
+        font-size: 23px !important;
+    }
+    .fact-title {
+        font-size: 23px !important;
+    }
+    .reason-sec .para .res-head {
+        margin-bottom: 0 !important;
+        font-size: 20px !important;
+    }
+    .reason-sec .para .res-p {
+        font-size: 14px !important;
+    }
+    .reason-sec .fa {
+        font-size: 18px !important;
+    }
+    .skillP {
+        font-size: 17px !important;
+    }
+    .skill-sec .row .text-end {
+        text-align: start !important;
+        margin: 10px 0 !important;
+    }
+    .quotePara {
+        font: 24px !important;
+    }
+    .quoteTitle {
+        font: 25px !important;
+    }
+    .input input {
+        width: 60%;
+    }
+    .team-sec .col-lg-3.col-md-5.col-6 {
+        padding: 0 !important;
+    }
+    .team-sec .test-imgs img {
+        height: 70vh !important;
+    }
+    .team-sec .swiper-button-prev:after,
+    .team-sec .swiper-button-next:after {
+        font-weight: bolder !important;
+        font-size: 18px !important;
+    }
+    .team-sec .swiper-button-next,
+    .team-sec .swiper-button-prev {
+        width: 30px;
+        height: 30px;
+    }
+    th h4 {
+        font-size: 19px;
+    }
+    th h4 .display-5 {
+        font-size: 25px;
+    }
+    th h1 {
+        font-size: 30px !important;
+    }
+    th p {
+        font-size: 14px;
+    }
+    td {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:650px) {
+    .header .main-title {
+        font-size: 35px !important;
+    }
+    .header .desc-main {
+        font-size: 15.23px !important;
+    }
+    .header .btn-success {
+        padding: 10px 25px !important;
+    }
+    .sec-1 .row img {
+        margin: 0 auto !important;
+    }
+    .sec-1 .row .para {
+        margin: auto !important;
+    }
+    .about-sec .row {
+        padding: 0 auto !important;
+        margin: 0 auto !important;
+    }
+    .skill-sec .skillPara,
+    .skill-sec .skillLight-para {
+        font-size: 17px !important;
+    }
+    .skill-sec .box .inner p {
+        font-size: 14px !important;
+    }
+    .pricing-sec .container {
+        width: 95% !important;
+    }
+    td button {
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width:592px) {
+    .socialContainer i {
+        font-size: 2em;
+    }
+    .socialContainer .so-name {
+        font-size: 16px !important;
+    }
+    .com-sec .counter {
+        font-size: 30px !important;
+    }
+    .com-sec .count-num {
+        font-size: 15px !important;
+    }
+}
+
+@media(max-width:560px) {
+    .header .main-title {
+        font-size: 30px !important;
+    }
+    .sameIcons.fa {
+        margin-bottom: 0 !important;
+        font-size: 35px !important;
+    }
+    .quotePara {
+        font: 20px !important;
+    }
+    .quoteTitle {
+        font: 22px !important;
+    }
+    .team-sec .test-imgs img {
+        height: 50vh !important;
+    }
+    .team-sec .swiper-button-next,
+    .team-sec .swiper-button-prev {
+        width: 23px;
+        height: 23px;
+    }
+    .com-sec-p {
+        font-size: 14px !important;
+    }
+    .user img {
+        width: 7vh !important;
+    }
+}
+
+@media(max-width:500px) {
+    .header .sett button .fa-cog {
+        font-size: 18px !important;
+    }
+    .btn-info {
+        font-size: 10px !important;
+        padding: 4px 8px !important;
+        margin: 7px !important;
+    }
+    .btn-success {
+        font-size: 12px !important;
+    }
+    .header .sett button .fa-cog.fa-3x {
+        font-size: 28px !important;
+        margin-right: 8px !important;
+    }
+    .header .topCaro .swiper {
+        width: 5rem !important;
+    }
+    .header .topCaro .name {
+        font-size: 4rem !important;
+    }
+    .all-header {
+        font-size: 30px !important;
+    }
+    .user h5 {
+        font-size: 18px !important;
+    }
+    .user h6 {
+        font-size: 12px !important;
+    }
+    .contact-sec .inp input {
+        width: 85vw !important;
+    }
+    .contact-sec textarea {
+        width: 85vw !important;
+    }
+    .paraTestimonial h4 {
+        font-size: 14px !important;
+    }
+    .paraTestimonial p {
+        font-size: 13px;
+    }
+    .navbar .navbar-brand {
+        margin: 0 0 0 10px;
+        font-size: 20px !important;
+    }
+    .navbar.navbar-dark .navbar-toggler {
+        padding: 5px !important;
+        margin: 0 10px 0 0;
+    }
+    .navbar.navbar-dark .navbar-toggler-icon {
+        font-size: 18px !important;
+    }
+    .des-all {
+        font-size: 14px !important;
+    }
+    .reason-sec .para .res-head {
+        margin-bottom: 0 !important;
+        font-size: 18px !important;
+    }
+    .reason-sec .para .res-p {
+        font-size: 12px !important;
+    }
+    .reason-sec .fa {
+        font-size: 15px !important;
+    }
+    .skill-sec .skillPara,
+    .skill-sec .skillLight-para {
+        font-size: 15px !important;
+    }
+    .skill-sec .box .inner {
+        height: 6vh !important;
+    }
+    .quote-se img {
+        width: 25% !important;
+    }
+    .quote-se .quotePara {
+        font: 15px !important;
+    }
+    .quote-se .quoteTitle {
+        font-size: 17px !important;
+    }
+    .quoteTitle {
+        font: 16px !important;
+    }
+    .work-sec .work-img {
+        height: 50vh !important;
+    }
+    .team-sec .test-imgs img {
+        height: 40vh !important;
+        width: 100% !important;
+    }
+    th h4 {
+        font-size: 16.5px;
+    }
+    th h4 .display-5 {
+        font-size: 19px;
+    }
+    th h1 {
+        font-size: 24px !important;
+    }
+    th p {
+        font-size: 12px;
+    }
+    .his-sec h3,
+    .about-sec h3 {
+        font-size: 14px !important;
+        padding: 2vh !important;
+    }
+    .his-sec p,
+    .about-sec p {
+        font-size: 11px !important;
+    }
+    .his-sec .row .rendom-2 h3::after,
+    .his-sec .row .rendom-4 h3::after {
+        top: 18.7% !important;
+        height: 4vh !important;
+        width: 4vh !important;
+        left: -2vh !important;
+    }
+    .his-sec .row .rendom-3 h3::after,
+    .his-sec .row .rendom-1 h3::after {
+        top: 18.7% !important;
+        height: 4vh !important;
+        width: 4vh !important;
+        right: -2vh !important;
+    }
+}
+
+@media(max-width:378px) {
+    .header .main-title {
+        font-size: 30px !important;
+    }
+    .header .sett button {
+        padding: 0;
+    }
+    .all-header {
+        font-size: 20px !important;
+    }
+    .des-all {
+        font-size: 12px !important;
+    }
+    .quotePara {
+        font: 13px !important;
+    }
+    .quoteTitle {
+        font: 15px !important;
+    }
+    .work-sec .work-img {
+        height: 40vh !important;
+    }
+    .team-sec .test-imgs img {
+        height: 25vh !important;
+    }
+    .team-sec .swiper-button-next,
+    .team-sec .swiper-button-prev {
+        display: none;
+    }
+    .socialContainer i {
+        font-size: 1.3em;
+    }
+    .socialContainer .so-name {
+        font-size: 13px !important;
+    }
+    .com-sec .counter {
+        font-size: 25px !important;
+    }
+    .com-sec .count-num {
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width:360px) {
+    .des-all {
+        font-size: 11px !important;
+    }
+    .reason-sec .para h4 {
+        font-size: 16px;
+    }
+    .reason-sec .para p {
+        font-size: 13px;
+    }
+    .reason-sec .para .res-head {
+        margin-bottom: 5px !important;
+        font-size: 13px !important;
+    }
+    .reason-sec .para .res-p {
+        font-size: 10px !important;
+    }
+    .skill-sec .skillPara,
+    .skill-sec .skillLight-para {
+        font-size: 12px !important;
+    }
+    .skill-sec .box .inner p {
+        font-size: 12px !important;
+    }
+    .work-sec .work-img {
+        height: 36vh !important;
+    }
+    .com-sec-p {
+        font-size: 12px !important;
+    }
+    .input input {
+        width: 70%;
+    }
+    .notifyBtn {
+        font-size: 10px !important;
+        padding: 0.55rem 0.6rem !important;
+    }
+}
+
+@media (max-width:300px) {
+    .btn-info {
+        margin: 3px !important;
+    }
+    .user h5 {
+        font-size: 14px !important;
+    }
+    .user h6 {
+        font-size: 11px;
+    }
+    .paraTestimonial h4 {
+        font-size: 16.5px;
+    }
+    .paraTestimonial p {
+        font-size: 12px;
+    }
+    .contact-sec .inp input {
+        width: 80vw !important;
+    }
+    .contact-sec .formBtn {
+        width: 52% !important;
+    }
+    .work-sec .work-img {
+        height: 30vh !important;
+    }
+}
